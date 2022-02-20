@@ -1,0 +1,387 @@
+/*-----------------------------------------------------------------------
+							RESPONSIVE STYLES
+------------------------------------------------------------------------- */
+/* =========== MAX 1210px =========== */
+@media only screen and (max-width:1210px) {
+	/* Page Boxed Layout */
+	.page-boxed{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.page-boxed, .page-boxed .sticky-wrapper.is-sticky{
+		width: 100%;
+		max-width: 100%;
+	}
+	/* Company Coloumn Block */
+	.company-slider-block {
+		background: none;
+		border-radius: 0px; -webkit-border-radius: 0px; -o-border-radius: 0px; -ms-border-radius: 0px;
+		box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none; -ms-box-shadow: none;
+		padding-bottom: 30px;
+		padding-top: 0;	
+	}
+	.company-slider-block .col {
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		float: none;
+	}
+	.company-slider-block .item img {
+		height: 100%;
+		width: 100%;
+	}
+	
+
+}
+
+/* =========== MAX 1024px =========== */
+@media only screen and (max-width:1024px) {
+	.visible-1024{
+		display: block;
+	}
+	.hidden-1024{
+		display: none;
+	}
+	.margin-sm-top-1024{
+		margin-top: 20px;
+	}
+	.margin-large-top-1024{
+		margin-top: 30px;
+	}
+	.margin-x-x-x-large-top-1024{
+		margin-top: 60px;
+	}
+	
+	.title-description{
+		padding: 0 ;
+	}
+	.fact-section .padding-x-x-large-right, .fact-section .padding-x-x-large-left{
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+/* =========== MAX 991PX =========== */
+@media only screen and (max-width:991px) {
+	.visible-991{
+		display: block;
+	}
+	.hidden-991{
+		display: none;
+	}
+	.description{
+		margin: 4px 0;
+	}
+	/* Title */
+	.m-title .description {
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+	.content-icon-block{
+		margin-bottom: 20px;
+	}
+	/* Count block */
+	.count-block,.caption-icon-block,.border-style-two,.member-block,.pricing-box,.round-box,.blog-item,.site-map-block {
+		margin-bottom: 20px;
+	}
+	/* Love It Section */
+	.legend{
+		margin-top: -83px;
+	}
+	/* Love Right Section */
+	.love-it-section .panel-group{
+		margin-top: 150px;
+	}
+	/* Skills Section */
+	.piechart{
+		margin-bottom: 30px;
+	}
+	/* Works Section */
+	.overlay-caption  p.margin-sm-bottom{
+		margin-bottom: 10px;
+	}
+	.overlay-caption  p.padding-sm-bottom{
+		padding-bottom: 10px;
+	}
+	/* Portfolio Single */
+	.single-portfolio-slider, .portfolio-caption{
+		float: left;
+	}
+	/* Pricing no Slider */
+	.no-slider .pricing-box{
+		margin-bottom: 30px;
+	}
+	/* Team */
+	.member-details-full img.img-150{
+		height: 80px;
+		width: 80px;
+	}
+	/* Widget */
+	.widget {
+		float:none;
+		display:block;
+	}
+	.widget:after, .widget:before {
+		content: "";
+		display: table;
+		clear:both;
+	}
+	
+}
+/* =========== MAX 767PX =========== */
+@media only screen and (max-width:768px) {
+	
+}
+/* =========== MAX 767PX =========== */
+@media only screen and (max-width:767px) {
+	.visible-767{
+		display: block;
+	}
+	.hidden-767{
+		display: none;
+	}
+	/* Img */
+	.img-full-767{
+		width: 100%;
+	}
+	.margin-sm-top-767{
+		margin-top: 20px;
+	}
+	.margin-large-top-767{
+		margin-top: 30px;
+	}
+	/* Padding */
+	.padding-right-15-767{
+		padding-right: 15px;
+	}
+	/* Btn Set */
+	.button-set.text-right{
+		text-align: center;
+	}
+	/* Title */
+	.m-title .description {
+		padding-left: 9%;
+		padding-right: 9%;
+	}
+	/* Success Section */
+	.success-bg{
+		display: none;
+	}
+	.success-block img.img2, .success-block img.img3, .success-block img.img4, .success-block img.img5{
+		margin-top: 20px;
+	}
+	
+	
+	/* Fact Section */
+	.count-block {
+		margin-bottom: 30px;
+	}
+	.fact-section .col-sm-3 {
+		width: 50%;
+		margin: 0 auto;
+		float: left;
+	}
+	/* Works Section */
+	.project-grid{
+		width: 75%;
+		margin: 0 auto;
+	}
+	.project-grid .w3, .project-grid .w2, .project-grid .w4 {
+		width: 100%;
+		float: left;
+	}
+	.w4	.overlay-caption p{
+		display: block;
+	}
+	/* Portfolio Single */
+	.portfolio-caption{
+		margin-top: 20px;
+	}
+	.single-portfolio-slider img {
+		margin: 0 auto;
+	}
+	/* Happy Users */
+	.happy-user-section .btn{
+		margin: 20px auto 0;
+	}
+	.tags {
+		float: left;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	/* Love It Section */
+	.legend{
+		margin-top: -60px;
+	}
+	/* Blog */
+	.blog-item {
+		margin-bottom: 20px;
+	}
+	.blog-section .col-sm-3, .blog-section .container-fluid.no-padding {
+		padding: 0 15px !important;
+	}
+	/* Footer */
+	.recent-footer{
+		margin-top: 20px;
+	}
+	/* Copy Rights */
+	.copyrights-section p, .social-links.text-right{
+		text-align: center;
+	}
+	.social-links{
+		margin-top: 15px;
+	}
+	/* About Us Page 2 */
+	.who-we-are-block.padding-x-x-large.video-about-block{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	/* Short Code loaders */
+	.code-loaders .loader {
+		width: 100%;
+	}
+	.image-bg{
+	background-attachment: fixed !important;
+	}
+	.bg-pos-50-100{
+	background-position: inherit;
+	}
+	.bg-pos-50-50{
+		background-position: inherit;
+	}
+	.bg-contain {
+		background-size: inherit;
+	}
+}
+/* =========== MAX 640PX =========== */
+@media screen and (max-width:640px) {
+	/* Title */
+	.m-title .description {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	/* Testimonials */
+	.testimonial-pad-adjuster{
+		padding: 0;
+	}
+	/* Works Section */
+	.project-grid{
+		width: 100%;
+	}
+	/* blog Single */
+	.reply{
+		width: 95%;
+	}
+	/* About us 2 */
+	.video-about-block.video-block-dimention{
+		height: auto;
+	}
+	.countdown .countdown-section{
+		width: 100%;
+		margin-bottom: 1%;
+	}
+	#calendar h2{
+		margin-bottom: 10px;
+		margin-top: 25px;
+	}
+	.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12,
+	.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12,
+	.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{
+		width:100%!important;
+		padding:10px 20px !important;
+	}
+	.zozo-megamenu-submenu.col-md-3,
+	.zozo-megamenu.col-md-12{
+		padding:0 15px !important;
+	}
+	section{
+		padding:60px 0px !important;
+	}
+	.padding-x-x-large{
+		padding:20px !important;
+	}
+	.margin-x-m-large-bottom{		
+		margin-bottom:10px !important;
+	}
+	.margin-x-x-large-top{		
+		margin-top:10px !important;
+	}
+	.who-we-are-block{
+		padding-bottom:50px !important;
+	}
+	.no-padding{
+		padding:0px !important;
+	}
+	.mh7{
+		 min-height: inherit;
+	}
+	
+}
+/* =========== MAX 480PX =========== */
+@media screen and (max-width:480px) {
+	/*section */
+	section{
+		padding: 40px 0;
+	}
+	.padding-x-x-large {
+		padding: 100px 15px;
+	}
+	/* Text Slider */
+	.text-scroll-slider .text60 {
+		font-size: 30px;
+	}
+	.text-scroll-slider .text80 {
+		font-size: 40px;
+	}
+	.text-slider .text20 {
+		font-size: 14px;
+	}
+	.text-slider .text30 {
+		font-size: 17px;
+	}
+	/* RS Slider */
+	.slider-content  .text70 {
+		font-size: 35px;
+	}
+	/* Title */
+	.m-title .description {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.description{
+		margin: 0;
+	}
+	/* Fact Section */
+	.fact-section .col-sm-3 {
+		width: 100%;
+	}
+	.legend{
+		display: none;
+	}
+	/* Love It Right Section */
+	.love-it-section .panel-group {
+		margin-top: 0;
+	}
+}
+
+/* =========== MAX 360PX =========== */
+@media only screen and (max-width:360px) {
+	/* Title */
+	.title-description .col-xs-4, .title-description .col-xs-8 {
+		width: 100%;
+	}
+	.title-description h2 {
+		margin-bottom: 10px;
+		padding: 10px 0 12px;
+	}
+	.m-title .description {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	/* Clients */
+	.customer-section .owl-carousel .item, .customer-section .owl-carousel .item img{
+		margin: 0 20px;
+	}
+	
+	
+}

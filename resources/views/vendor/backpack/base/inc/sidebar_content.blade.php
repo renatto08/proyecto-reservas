@@ -1,0 +1,9 @@
+@if(backpack_user()->hasRole('administrador'))
+    @include(backpack_view('inc.roles_menu._admin'))
+@elseif(backpack_user()->hasRole('ventas'))
+    @include(backpack_view('inc.roles_menu._ventas'))
+@elseif(backpack_user()->hasRole('coord-ventas'))
+    @include(backpack_view('inc.roles_menu._coordventas'))
+@elseif(backpack_user()->hasRole('negocio'))
+    @include(backpack_view('inc.roles_menu._negocio'))
+@endif

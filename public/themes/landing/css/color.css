@@ -1,0 +1,239 @@
+/* =========================== COLOR CSS FILE ===================================== */
+::-moz-selection {
+    background: #222;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #222;
+    color: #fff;
+    text-shadow: none;
+}
+/* Title */
+.typo-dark h1 > a:hover,.typo-dark h1 > a:active,.typo-dark h1 > a:focus, 
+.typo-dark h2 > a:hover,.typo-dark h2 > a:active,.typo-dark h2 > a:focus, 
+.typo-dark h3 > a:hover,.typo-dark h3 > a:active,.typo-dark h3 > a:focus, 
+.typo-dark h4 > a:hover,.typo-dark h4 > a:active,.typo-dark h4 > a:focus, 
+.typo-dark h5 > a:hover,.typo-dark h5 > a:active,.typo-dark h5 > a:focus, 
+.typo-dark h6 > a:hover,.typo-dark h6 > a:active,.typo-dark h6 > a:focus,
+.typo-light h1 > a:hover,.typo-light h1 > a:active,.typo-light h1 > a:focus, 
+.typo-light h2 > a:hover,.typo-light h2 > a:active,.typo-light h2 > a:focus, 
+.typo-light h3 > a:hover,.typo-light h3 > a:active,.typo-light h3 > a:focus, 
+.typo-light h4 > a:hover,.typo-light h4 > a:active,.typo-light h4 > a:focus, 
+.typo-light h5 > a:hover,.typo-light h5 > a:active,.typo-light h5 > a:focus, 
+.typo-light h6 > a:hover,.typo-light h6 > a:active,.typo-light h6 > a:focus {
+	color: #F12B63;
+}
+/* -------------------------------
+	***** Background Color *****
+--------------------------------*/
+.theme-bg-color,
+/* Logo */
+.navbar-brand .logo-first-letter:after,
+/* Owl Btn */
+.theme-color-owl-btn .owl-buttons div:hover,
+.owl-page.active,
+/* tooltip */
+.tooltip-theme-bg .tooltip-inner,
+.icon-border:hover,
+.icon-border:focus,
+.icon-border.active,
+/*btn*/
+.btn:hover,
+.btn:focus,
+.btn.active,
+.btn-theme-color-inverse,
+/* Nav Pills */
+.nav-pills > li > a:hover:after,
+.nav-pills > li > a:focus:after,
+.nav-pills > li > a.active:after,
+/* Nav Tabs */
+.nav-tabs > li.active > a:after,
+.nav-tabs > li.active > a:after,
+.nav-tabs > li.active > a.after,
+/* Border Style */
+.border-style-one:after,
+.border-style-one:before,
+.border-style-two:after,
+.border-dash:after,
+.title-description h2:after, .title-description h2:before,
+/* pagination */
+.pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > a.active,
+.pagination > li > span:focus, .pagination > li > span:hover,
+/* Icon Part */
+.content-icon-block:hover .icon-part,
+.content-icon-block.top-icon:hover .icon-part,
+/* Leginds */
+.option-bottom,
+.option-top,
+/* Tags */
+.tags li a:hover,
+.tags.color-tags li a:hover,
+/* Page Loader */
+.square-spin > div, .cube-transition > div,
+.date-box
+
+{
+	background-color: #F12B63;
+}
+
+
+/* -------- Bg rgba ------------- */
+/* Form */
+.form-control:focus, .form-control.active {
+	background-color: rgba(242,57,109,0.7);
+}
+
+
+
+
+
+
+
+/* -------------------------------
+	***** Color *****
+--------------------------------*/
+a,
+.theme-color-text,
+.theme-color-owl-btn .owl-buttons div,
+.hvr-theme-color-text:hover,
+.hvr-theme-color-text:focus,
+.hvr-theme-color-text.active,
+/* Nav Menu */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a.active,
+#header nav ul.nav-main li.active a,
+.one-page-nav .navbar-default .navbar-nav > .active > a, 
+.one-page-nav .navbar-default .navbar-nav > .active > a:focus, 
+.one-page-nav .navbar-default .navbar-nav > .active > a:hover,
+/* Header */
+#home-onepage .back-btn:hover,
+
+/* Nav Menu */
+.navbar-nav .zozo-megamenu > li a:hover,
+.navbar-nav .zozo-megamenu > li a:hover,
+.navbar-nav .dropdown-menu > li > a:focus, 
+.navbar-nav .dropdown-menu > li > a:hover, 
+.navbar-nav .dropdown-menu .sub-menu a:hover, 
+.navbar-nav .dropdown-menu .sub-menu a:focus,
+
+/* Btn */
+.btn.btn-white:hover,
+.btn.btn-white:focus,
+.btn.btn-white.active,
+.btn.btn-theme-color,
+.btn.btn-theme-color-inverse:hover,
+.btn.btn-theme-color-inverse:active,
+.btn.btn-theme-color-inverse:focus,
+/* Owl Btn */
+.owl-buttons div:hover,
+/* Nav Tabs */
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:focus, 
+.nav-tabs > li.active > a:hover,
+/* Panel */
+.panel-heading a,
+.panel-heading a:hover,
+/* Breadcrumbs */
+.breadcrumb > .active,
+/* Pagination */
+.pagination > li > a, .pagination > li > span,
+/* Content Block */
+.content-icon-block:hover h4,
+.content-icon-block:hover .numbering,
+.icon-border,
+.topbar-section .social-links li a:hover
+{
+	color: #F12B63;
+}
+
+
+
+
+
+
+
+
+/* -------------------------------
+	***** Border Color *****
+--------------------------------*/
+.theme-color-owl-btn .owl-buttons div,
+.theme-color-owl-btn .owl-buttons div:hover,
+.icon-border,
+.icon-border:hover,
+.icon-border:focus,
+.icon-border.active,
+/* DropDown */
+.dropdown-menu, .sub-menu,
+/* btn */
+.btn:hover,
+.btn:focus,
+.btn.active,
+.btn.btn-theme-color,
+.btn.btn-theme-color:hover,
+.btn.btn-theme-color:focus,
+.btn.btn-theme-color.active,
+.btn.btn-theme-color-inverse,
+.btn-theme-color-inverse.hvr-border:hover,
+.btn-theme-color-inverse.hvr-border:focus,
+.btn-theme-color-inverse.hvr-border:active,
+/* Pagination */
+.pagination > li > a, .pagination > li > span,
+.pagination > li > a:focus, .pagination > li > a:hover,
+.pagination > li > span:focus, .pagination > li > span:hover,
+/* Form */
+.form-control:focus, .form-control.active,
+/* Icon Part */
+.content-icon-block:hover .icon-part,
+.content-icon-block.top-icon:hover .icon-part,
+/* Legends */
+.option-top,
+/* Pricing Boxes */
+.pricing-box:before, .pricing-box:after,
+/* Tags */
+.tags li a:hover,
+.tags.color-tags li a:hover
+
+{
+	border-color: #F12B63;
+}
+
+
+
+
+
+/* Border Left Right Color */
+.border-style-one:hover{
+	border-left-color: #F12B63;
+	border-right-color: #F12B63;
+}
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------
+	***** Tooltip Arrow *****
+--------------------------------*/
+.tooltip-theme-bg .tooltip.top .tooltip-arrow{
+	border-top-color:#F12B63 !important;
+}
+
+.tooltip-theme-bg .tooltip.bottom .tooltip-arrow{
+	border-bottom-color:#F12B63 !important;
+}
+
+.tooltip-theme-bg .tooltip.left .tooltip-arrow{
+	border-left-color:#F12B63 !important;
+}
+
+.tooltip-theme-bg .tooltip.right .tooltip-arrow{
+	border-right-color:#F12B63 !important;
+}
