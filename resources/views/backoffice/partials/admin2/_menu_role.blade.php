@@ -29,9 +29,6 @@
         <li>
             <a  href="{{route('orders.index')}}">Mis reservas</a>
         </li>
-        <li>
-            <a href="{{route('orders.received')}}">Lista de reservas</a>
-        </li>
 
     </ul>
 </li>
@@ -41,11 +38,11 @@
         <span class="nav-label">Ventas</span><i class="fa fa-angle-left arrow"></i></a>
     <ul class="nav-2-level collapse">
 
-        <li>
+        <li style="display:none;">
             <a href="{{route('orders.create_sell')}}">Nueva Venta</a>
         </li>
         <li>
-            <a href="{{route('orders.received',['status'=>'Venta'])}}">Libro de ventas</a>
+            <a href="{{route('orders.received',['status'=>'Venta'])}}">Mis ventas</a>
         </li>
     </ul>
 </li>

@@ -82,7 +82,7 @@
                 @endif    
 
                 </h5>
-                <div class="row mb-4">
+                <div class="row mb-4" style="display:none;">
                     <div class="form-group mb-4 col-sm-4 col-12">
                         <label class="mb-0 mr-2">Cliente:</label>
 
@@ -157,9 +157,6 @@
                         </label>
                      </div>-->
                     @endif
-                    <div class="col-sm-3 form-group mb-4">
-                        <button class="mt-4 btn btn-success btn-block" type="button" id="btn_filter"><i class="fa fa-search"></i> Filtrar</button>
-                    </div>
                 </div>
 
 
@@ -222,10 +219,10 @@
                         <tr>
                             <th>Reserva ID</th>
                             <th>Cliente</th>
-                            <th>Precio Total</th>
                             <th>Estado</th>
-                            <th>Campaña</th>
-                            <th>Enviado</th>
+                            <th>Descuento</th>
+                            <th>Precio Total</th>
+                            <th>Fecha creación</th>
                             <th class="no-sort"></th>
                         </tr>
                         </thead>
@@ -279,10 +276,10 @@
                 },
                 columns: [
                     {data:'serie'},
-                    {data:'client'},
-                    {data:'total'},
+                    {data:'flete_address'},
                     {data:'status'},
-                    {data:'campaign'},
+                    {data:'amount_discount_aditional'},
+                    {data:'total'},
                     {data:'created_at'},
                     {data:'actions'}
                 ],

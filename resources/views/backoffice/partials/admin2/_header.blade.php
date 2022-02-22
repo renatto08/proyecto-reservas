@@ -17,7 +17,7 @@
 <link href="{{asset('themes/admin2/vendors/dataTables/datatables.min.css')}}" rel="stylesheet" />
 <link href="{{asset('themes/admin2/vendors/bootstrap-sweetalert/dist/sweetalert.css')}}" rel="stylesheet" />
 <!-- THEME STYLES-->
-<link href="{{asset('themes/admin2/css/main.min.css')}}" rel="stylesheet" />
+<link href="{{asset('themes/admin2/css/main.css')}}" rel="stylesheet" />
 <!-- PAGE LEVEL STYLES-->
 
 <script type="text/javascript">

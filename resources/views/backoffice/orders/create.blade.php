@@ -14,8 +14,12 @@
                     </div>
                     <form class="form-info" action="javascript:;">
                         <div class="ibox-body">
-
                             <div class="form-group mb-4">
+                                <label>Cliente</label>
+                                <input class="form-control" type="text" id="flete_address" name="flete_address">
+                             </div>
+
+                            <div class="form-group mb-4" style="display:none;">
                                 <!--
                                 <label>Cliente</label>
                                 <input class="form-control" type="text" id="client_id" name="client_id">
@@ -96,8 +100,9 @@
                                     <option value="OTROS">OTROS</option>
                                 </select>
                             </div>
-                            <div class="form-group mb-4">
-                                <label>Enviar a</label>
+
+                            <div class="form-group mb-4" style="display:none;">
+                                <label>Envío</label>
                                 <select class="form-control form-control-solid " id="flete" name="flete">
                                     <option value="" data-price="0">--- NINGUNO---</option>
                                     @foreach($fletes as $flete)
@@ -112,9 +117,7 @@
                                 <input value="{{isset($order) ? $order->flete_address : ''}}" type="hidden" id="flete_address" name="flete_address">
 
                                 @endif
-                            </div>
-
-
+                            </div>                   
 
                             @if(backpack_user()->hasRole(['administrador','ventas','coord-ventas']))
                                 <div class="form-group mb-4">

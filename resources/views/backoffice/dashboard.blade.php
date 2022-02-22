@@ -140,7 +140,7 @@
                                     <td class="pl-4">
                                         <a href="{{route('orders.show',$order->id)}}" target="_blank">#{{$order->serie}}</a>
                                     </td>
-                                    <td>{{$order->client->full_name}}</td>
+                                    <td>{{$order->flete_address}}</td>
                                     <td>S/.{{number_format($order->total,2)}}</td>
                                     <td>
                                         <span class="badge badge-success badge-pill">{{$order->status}}</span>

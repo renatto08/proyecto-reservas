@@ -39,11 +39,6 @@
                 </div>
             </div>
         </li>
-        <li>
-            <a class="nav-link search-toggler js-search-toggler"><i class="ti-search"></i>
-                <span>Buscar producto en tienda...</span>
-            </a>
-        </li>
     </ul>
     <!-- END TOP-LEFT TOOLBAR-->
     <!--LOGO-->

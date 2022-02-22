@@ -159,8 +159,8 @@ pre {
 
 .btn-primary {
   color: #fff;
-  background-color: #5C6BC0;
-  border-color: #5C6BC0; }
+  background-color: #00bcd4;
+  border-color: #00bcd4; }
   .btn-primary:focus, .btn-primary.focus, .btn-primary:hover, .btn-primary.active, .btn-primary:active, .btn-primary:disabled, .btn-primary.disabled, .show > .btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #4a5ab9;
@@ -3089,7 +3089,7 @@ a.text-light:hover, a.text-light:focus {
   -ms-flex-align: center;
   align-items: center;
   height: 66px;
-  background-color: #5c6bc0;
+  background-color: #00bcd4;
   margin: 0;
   border: 0;
   -webkit-border-radius: 0;

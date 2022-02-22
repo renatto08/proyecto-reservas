@@ -42,7 +42,7 @@
                 },
                 columns: [
                     {data:'serie'},
-                    {data:'client'},
+                    {data:'flete_address'},
                     {data:'product'},
                     {data:'q'},
                     {data:'created_at'},

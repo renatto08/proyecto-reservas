@@ -93,16 +93,6 @@
                 <th>Direccion: </th>
                 <td>{{$order->flete_address_text}}</td>
             </tr>
-            <tr>
-                <th>Email: </th>
-                <td>{{$order->client->user->email}}</td>
-                <th>Telefono: </th>
-                <td>{{$order->client->phone}}</td>
-            </tr>
-            <tr>
-                <th>DNI: </th>
-                <td>{{$order->client->code}}</td>
-            </tr>
         </table>
 
         <hr>
