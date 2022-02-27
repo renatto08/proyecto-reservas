@@ -286,8 +286,8 @@ class OrderController extends Controller
                 ->addColumn('actions',function($row) use($data) {
                     if($data['sell']){
                         if ($data['status'] == 'venta') {
-                            return '<a class="btn btn-outline-secondary btn-sm" data - toggle = "tooltip" title = "Ver Venta" href = "'.route('orders.show',$row->id).'" ><i class="ti-eye" ></i ></a >
-                                            <a class="btn btn-outline-secondary btn-sm" data - toggle = "tooltip" title = "Imprimir" target = "_blank" href = "'.route('orders.print',$row->id).'" ><i class="ti-printer" ></i ></a >';
+                            return '<a class="btn btn-outline-secondary btn-sm" data - toggle = "tooltip" title = "Ver Venta" href = "'.route('orders.show',$row->id).'" ><i class="ti-eye" ></i ></a >';
+                                            //'<a class="btn btn-outline-secondary btn-sm" data - toggle = "tooltip" title = "Imprimir" target = "_blank" href = "'.route('orders.print',$row->id).'" ><i class="ti-printer" ></i ></a >'
                         }else{
                             return (backpack_user()->hasRole(['administrador','coord-ventas','ventas']) ? '<a class="btn btn-outline-secondary btn-sm" data - toggle = "tooltip" title = "Generar venta" href = "'.route('orders.sell',$row->id).'" ><i class="ti-shopping-cart" ></i ></a >' : '').
                                 '<a class="btn btn-outline-secondary btn-sm" data - toggle = "tooltip" title = "Editar reserva" href = "'.route('orders.sell',['order'=>$row->id,'edit'=>true]).'" ><i class="ti-pencil" ></i ></a >'.
