@@ -60,7 +60,8 @@ class OrderController extends Controller
                     return $q->order->serie;
                 })
                 ->addColumn('client',function ($q){
-                    return $q->order->client->full_name;
+                    //return $q->order->client->full_name;
+                    return $q->order->flete_address;
                 })
                 ->addColumn('product',function ($q){
                     return $q->product->title .' / '.$q->attribute->full_desc;
@@ -290,7 +291,7 @@ class OrderController extends Controller
                         }else{
                             return (backpack_user()->hasRole(['administrador','coord-ventas','ventas']) ? '<a class="btn btn-outline-secondary btn-sm" data - toggle = "tooltip" title = "Generar venta" href = "'.route('orders.sell',$row->id).'" ><i class="ti-shopping-cart" ></i ></a >' : '').
                                 '<a class="btn btn-outline-secondary btn-sm" data - toggle = "tooltip" title = "Editar reserva" href = "'.route('orders.sell',['order'=>$row->id,'edit'=>true]).'" ><i class="ti-pencil" ></i ></a >'.
-                                '<a class="btn btn-outline-secondary btn-sm" data - toggle = "tooltip" title = "Imprimir" target = "_blank" href = "'.route('orders.print',$row->id).'" ><i class="ti-printer" ></i ></a >'.
+                                //'<a class="btn btn-outline-secondary btn-sm" data - toggle = "tooltip" title = "Imprimir" target = "_blank" href = "'.route('orders.print',$row->id).'" ><i class="ti-printer" ></i ></a >'.
                                 '<form method = "POST" action = "'.route('orders.destroy',$row->id).'" >'.
                                 '<input type = "hidden" name = "_method" id = "_method" value = "DELETE" >'.csrf_field().
                                 '<button data - toggle = "tooltip" title = "Anular Reserva" class="btn btn-outline-secondary btn-sm" type = "submit" class="" ><i class="ti-trash" ></i ></button >'.

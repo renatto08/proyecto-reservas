@@ -157,7 +157,7 @@
                         </label>
                      </div>-->
                     @endif
-                    <div class="col-sm-3 form-group mb-4">
+                    <div class="col-sm-3 form-group mb-4" style="display:none;">
                         <button class="mt-4 btn btn-success btn-block" type="button" id="btn_filter"><i class="fa fa-search"></i> Filtrar</button>
                     </div>
                 </div>
